@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #0a66c2, #004182);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* SECTIONS */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* HEADINGS */
+h2 {
+    color: #0a66c2;
+    border-bottom: 2px solid #0a66c2;
+    padding-bottom: 5px;
+}
+
+/* CARDS */
+.card {
+    background: #f9fbff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border-left: 5px solid #0a66c2;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
