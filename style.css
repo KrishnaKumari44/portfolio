@@ -4,31 +4,61 @@ body {
     background: #f0f2f5;
 }
 
+/* HEADER */
 header {
-    background: #2c3e50;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
+header h1 {
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: #2c3e50;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ddd;
+}
+
+/* SECTIONS */
 section {
     padding: 20px;
-    margin: 15px;
+    margin: 20px;
     background: white;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-h2 {
-    color: #2c3e50;
-}
-
+/* CARDS */
 .card {
     background: #f9f9f9;
     padding: 15px;
     margin: 10px 0;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #4ca1af;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* IMAGES */
 .image-container {
     display: flex;
     flex-wrap: wrap;
@@ -40,10 +70,17 @@ h2 {
     height: 160px;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid #ddd;
     transition: 0.3s;
 }
 
 .gallery:hover {
     transform: scale(1.08);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
 }
