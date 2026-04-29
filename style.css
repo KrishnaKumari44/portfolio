@@ -55,16 +55,13 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
-    justify-items: center;
 }
-
 .gallery {
     width: 180px;
     height: 130px;
     object-fit: cover;
     border-radius: 10px;
-    transition: 0.3s ease;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    display: block;
 }
 
 .gallery:hover {
