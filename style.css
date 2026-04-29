@@ -55,23 +55,24 @@ section {
 }
 
 .image-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
+    justify-items: center;
 }
 
 .gallery {
-    width: 220px;
-    height: 160px;
+    width: 180px;
+    height: 130px;
     object-fit: cover;
     border-radius: 10px;
-    transition: 0.3s;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
 }
 
 .gallery:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
 }
-
 footer {
     text-align: center;
     padding: 15px;
